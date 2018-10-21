@@ -61,7 +61,7 @@ public:
 
     template <typename C>
     auto subtrie(const C &c) 
-    
+    const { return subtrie(begin(c), end(c)); }
 };
 
 
