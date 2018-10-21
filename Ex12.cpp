@@ -37,7 +37,7 @@ int main()
     }
     cout << "Back to outer scope\n";
 
-
+    cout << fa.use_count() << '\n';
     
 
     cout << "first f() call\n";
